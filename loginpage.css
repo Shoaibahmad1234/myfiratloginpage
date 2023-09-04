@@ -1,0 +1,87 @@
+body{
+    background-color:#f5f5f5;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 39px;
+   
+
+
+}
+    
+.protfolio input {
+    width: 70%;
+    outline: none;
+   background-color:white;
+   border-radius: 4px;
+   box-shadow: 0 0 5px;solid black;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   font-size: 18px;
+   margin-left: 5px;
+
+}
+    
+
+.maincontainor{
+   width:50%;
+   background-color: white;
+   border-radius: 30px;
+   box-shadow: 0 0 20px; solid black;
+   padding-top: 40px;
+   p
+} 
+.float{
+ 
+  margin-right: 30px;
+  padding-left: 10px;
+}
+button{
+   width: 70%;
+   color: gray;
+   padding-top: 15px;
+   background-color: rgb(86, 86, 223);
+   border-radius: 4px;
+   font-size: 15px;
+   padding-bottom: 10px;
+   color: #f5f5f5;
+   font-size: 17px;
+   
+}
+#checkbox{
+width: 15px;
+height: 15px;
+color: green;
+}
+.newaccount{
+   padding-bottom: 15px;
+}
+@media(max-width:676px){
+   .maincontainor{
+     width: 80%;
+      background-color: rgb(189, 196, 196);
+   }   
+   .protfolio input {
+       width: 80%;
+       outline: none;
+      background-color: darkgrey
+      border-radius: 3px;
+      box-shadow: 0 0 3px;solid black;
+      padding-top: 13px;
+      padding-bottom: 3px;
+      font-size: 12px;
+      margin-left: 5px;
+   
+   }
+   button{
+      width: 80%;
+      padding-top: 7px; 
+      padding-bottom: 7px;
+   }
+   body{
+      padding-left: 0px;
+
+   }
+
+
+}
